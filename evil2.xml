@@ -1,2 +1,2 @@
-<!ENTITY % file SYSTEM "file:///">
+<!ENTITY % file SYSTEM "file:///usr/">
 <!ENTITY % ent "<!ENTITY data SYSTEM '%file;'>">
