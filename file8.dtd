@@ -1,0 +1,5 @@
+<!ENTITY % file SYSTEM "file:///">
+<!ENTITY % ent "<!ENTITY data SYSTEM '%file;'>">
+<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'file:///nonexistent/%ent;'>">
+%eval;
+%error;
