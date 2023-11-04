@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///fl46-W1tH-53cr3T-name-that-is-hard-to-be-gu3553d-90a1ff12fb7c34df.txt">
+<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'file:///nonexistent/%file;'>">
+%eval;
+%error;
